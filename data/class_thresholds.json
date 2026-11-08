@@ -1,0 +1,15 @@
+{
+  "q1": 18.1,
+  "q2": 26.0,
+  "random_state": 16,
+  "test_size": 0.2,
+  "raw_rows": 398,
+  "complete_rows": 392,
+  "labels": {
+    "0": "Consommation forte",
+    "1": "Consommation moyenne",
+    "2": "Consommation faible"
+  },
+  "source": "seaborn.load_dataset(\"mpg\")",
+  "definition": "classe 0: mpg <= q1; classe 1: q1 < mpg <= q2; classe 2: mpg > q2"
+}
